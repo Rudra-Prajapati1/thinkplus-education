@@ -30,7 +30,7 @@ const Navbar = () => {
       <nav className="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8 py-3 md:py-4">
         <Link
           to="/"
-          className="flex gap-1 text-3xl sm:text-4xl text-primary font-bold hover:opacity-80 transition"
+          className="flex gap-1 text-3xl sm:text-4xl font-poppins text-primary font-bold hover:opacity-80 transition"
         >
           ThinkPlus
           <Plus className="w-4 h-4" strokeWidth={4} />
