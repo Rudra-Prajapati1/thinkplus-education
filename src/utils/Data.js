@@ -28,7 +28,7 @@ export const courses = [
   },
   {
     title: "IPMAT",
-    subtitle: "Headstart to management careers",
+    subtitle: "Management careers",
     desc: "A unique program designed to help students crack IPMAT exams with mentorship from IIM alumni and subject experts.",
     icon: GraduationCap,
     color: "#8B5CF6",
