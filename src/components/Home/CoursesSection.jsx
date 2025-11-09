@@ -45,20 +45,19 @@ const CoursesSection = () => {
             ))}
           </Swiper>
 
-          {/* Navigation buttons for larger screens */}
           <button
-            className="custom-prev absolute -left-4 sm:-left-6 lg:-left-12 xl:-left-20 top-1/2 
+            className="custom-prev absolute left-2 sm:-left-6 lg:-left-12 xl:-left-20 top-1/2 
             -translate-y-1/2 z-10 bg-white shadow-md hover:shadow-xl border border-gray-200 
-            rounded-full p-2 sm:p-3 md:p-4 transition-all hover:scale-110 hidden sm:flex 
+            rounded-full p-2 sm:p-3 md:p-4 transition-all hover:scale-110 flex 
             items-center justify-center"
           >
             <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" />
           </button>
 
           <button
-            className="custom-next absolute -right-4 sm:-right-6 lg:-right-12 xl:-right-20 top-1/2 
+            className="custom-next absolute right-2 sm:-right-6 lg:-right-12 xl:-right-20 top-1/2 
             -translate-y-1/2 z-10 bg-white shadow-md hover:shadow-xl border border-gray-200 
-            rounded-full p-2 sm:p-3 md:p-4 transition-all hover:scale-110 hidden sm:flex 
+            rounded-full p-2 sm:p-3 md:p-4 transition-all hover:scale-110 flex 
             items-center justify-center"
           >
             <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" />
