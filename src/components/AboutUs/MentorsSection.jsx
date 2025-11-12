@@ -21,7 +21,6 @@ const MentorsSection = () => {
           expertise, and mentorship to help students achieve their goals.
         </p>
 
-        {/* Mentors Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {mentors.map((mentor, index) => (
             <div
@@ -30,7 +29,6 @@ const MentorsSection = () => {
               data-aos-delay={index * 100}
               className="group relative bg-white border shadow-sm border-gray-200 rounded-2xl p-6 sm:p-8 flex flex-col items-center text-center transition-all duration-300 hover:-translate-y-2 hover:border-pink-300 overflow-hidden"
             >
-              {/* Profile Icon */}
               <div className="relative mb-6 z-10">
                 <div className="relative w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full bg-linear-to-br from-pink-50 via-violet-50 to-white flex items-center justify-center border-2 border-gray-200 transition-all duration-300 group-hover:border-pink-400 group-hover:scale-105">
                   <User
@@ -56,10 +54,7 @@ const MentorsSection = () => {
                   </p>
                 </div>
               </div>
-
               <div className="absolute bottom-0 left-0 w-0 h-1 bg-linear-to-r from-pink-500 to-violet-500 transition-all duration-300 group-hover:w-full"></div>
-
-              <div className="absolute inset-0 bg-linear-to-br from-transparent via-transparent to-pink-50/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
             </div>
           ))}
         </div>

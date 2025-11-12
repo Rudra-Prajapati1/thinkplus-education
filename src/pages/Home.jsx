@@ -1,6 +1,4 @@
 import React from "react";
-
-// Sections
 import HeroSection from "../components/Home/HeroSection";
 import CoursesSection from "../components/Home/CoursesSection";
 import StatsSection from "../components/Home/StatsSection";

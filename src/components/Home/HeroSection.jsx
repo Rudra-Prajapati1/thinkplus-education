@@ -92,7 +92,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* === Right Side Image === */}
+          {/* Right Side Image */}
           <div data-aos="fade-left" data-aos-delay="200" className="relative">
             <div className="absolute -top-8 -right-8 w-32 h-32 bg-pink-500/20 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-violet-500/20 rounded-full blur-3xl"></div>
@@ -125,10 +125,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-
-      {/* Animated Gradient Orbs */}
-      <div className="absolute top-1/4 left-10 w-72 h-72 bg-pink-500/20 blur-[120px] rounded-full animate-pulse-slow"></div>
-      <div className="absolute bottom-1/4 right-10 w-80 h-80 bg-violet-500/20 blur-[120px] rounded-full animate-pulse-slower"></div>
     </section>
   );
 };
