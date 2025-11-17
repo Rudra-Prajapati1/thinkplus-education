@@ -49,7 +49,7 @@ const Contact = () => {
               <div>
                 <h4 className="font-semibold text-base sm:text-lg">Email</h4>
                 <p className="text-sm sm:text-base text-gray-600 break-all">
-                  support@thinkpluseducation.com
+                  support@thinkplus.com
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Contact = () => {
               <div>
                 <h4 className="font-semibold text-base sm:text-lg">Phone</h4>
                 <p className="text-sm sm:text-base text-gray-600">
-                  +91 9581400055
+                  +91 0000000000
                 </p>
               </div>
             </div>
