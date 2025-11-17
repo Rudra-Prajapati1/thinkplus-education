@@ -29,17 +29,17 @@ const Footer = () => {
 
           <div className="flex items-center gap-3 mt-4">
             <a
-              href="tel:+919581400055"
+              href="tel:+910000000000"
               className="text-sm text-gray-300 hover:text-primary transition"
             >
-              +91 9581400055
+              +91 0000000000
             </a>
             <span className="text-gray-500">•</span>
             <a
-              href="mailto:support@thinkpluseducation.com"
+              href="mailto:support@thinkplus.com"
               className="text-sm text-gray-300 hover:text-primary transition"
             >
-              support@thinkpluseducation.com
+              support@thinkplus.com
             </a>
           </div>
         </div>
